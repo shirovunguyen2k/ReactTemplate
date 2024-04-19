@@ -1,5 +1,5 @@
 import ProductCard from "./ProductCard.tsx";
-import { IProduct } from "./types/product.ts";
+import { IProduct } from "../types/product.ts";
 import { v4 as uuidv4 } from "uuid";
 
 const listProduct: IProduct[] = [
@@ -34,8 +34,8 @@ const listProduct: IProduct[] = [
 const Product = () => {
   return (
     <div className="flex flex-row items-center justify-center">
-      {listProduct.map((product) => (
-        <ProductCard product={product} key={product.id} />
+      {listProduct.map((products) => (
+        <ProductCard product={products} key={products.id} />
       ))}
     </div>
   );
