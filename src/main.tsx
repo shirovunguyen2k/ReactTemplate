@@ -6,6 +6,7 @@ import AppKeeper from "./component/AppKeeper.tsx";
 import ErrorPage from "./component/Error.tsx";
 import "./styles/index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import AppWeather from "./component/AppWeather.tsx";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "/Product",
         element: <Product />,
+      },
+      {
+        path: "/AppWeather",
+        element: <AppWeather />,
       },
     ],
   },

@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* body {
+  background-image: url("https://weather-app.isaaclal.com/assets/snowy-88cc09c5.jpeg");
+} */
 /* Customize scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
